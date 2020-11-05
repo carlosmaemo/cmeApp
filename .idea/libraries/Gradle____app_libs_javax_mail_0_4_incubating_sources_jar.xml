@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/javax.mail-0.4-incubating-sources.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/javax.mail-0.4-incubating-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
