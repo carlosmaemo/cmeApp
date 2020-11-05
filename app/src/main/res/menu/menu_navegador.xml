@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Minha clínica"
+        tools:ignore="HardcodedText">
+        <menu>
+        <item
+            android:id="@+id/menu_navegador_notificacao"
+            android:icon="@drawable/ic_notificacao"
+            android:title="Notificações"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/menu_navegador_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/menu_navegador_consulta"
+            android:icon="@drawable/ic_consulta"
+            android:title="Agendamento"
+            tools:ignore="HardcodedText" />
+        </menu>
+    </item>
+
+    <item android:title="Minha conta"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/menu_navegador_perfil"
+                android:icon="@drawable/ic_perfil"
+                android:title="Perfil"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/menu_navegador_definicoes"
+                android:icon="@drawable/ic_definicao"
+                android:title="Definições"
+                tools:ignore="HardcodedText" />
+        </menu>
+    </item>
+
+</menu>

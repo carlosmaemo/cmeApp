@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_btn_pendente"
+        android:orderInCategory="1"
+        android:title="@string/txt_menu_pendente"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/main_btn_desmarcado"
+        android:orderInCategory="2"
+        android:title="@string/txt_menu_desmarcado"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_btn_politica"
+        android:orderInCategory="3"
+        android:title="@string/txt_menu_politica"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_btn_termos"
+        android:orderInCategory="4"
+        android:title="@string/txt_menu_termos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_btn_sobre"
+        android:orderInCategory="5"
+        android:title="@string/txt_menu_sobre"
+        app:showAsAction="never" />
+</menu>

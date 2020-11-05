@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img04">
+
+    <TextView
+        android:id="@+id/frag_chat_vazio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/frag_chat_barra_layout"
+        android:layout_alignStart="@+id/frag_chat_lista"
+        android:layout_alignLeft="@+id/frag_chat_lista"
+        android:layout_alignEnd="@+id/frag_chat_lista"
+        android:layout_alignRight="@+id/frag_chat_lista"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="@string/txt_frag_chat_vazio"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/frag_chat_clinica_inf"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#ccc"-->
+        <!--android:padding="7dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/frag_chat_clinica_nome"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp"-->
+            <!--android:background="#ddd"-->
+            <!--android:text="Centro Medico Embondeiro, Lda"-->
+            <!--android:textSize="20sp"-->
+            <!--tools:textColor="@android:color/black" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/frag_chat_clinica_descricao"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/frag_chat_clinica_nome"-->
+            <!--android:layout_alignStart="@+id/frag_chat_clinica_nome"-->
+            <!--android:layout_alignLeft="@+id/frag_chat_clinica_nome"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp"-->
+            <!--android:text="Sistema de serviço de atendimento Online"-->
+            <!--android:textSize="17sp" />-->
+
+    <!--</RelativeLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/frag_chat_lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/frag_chat_barra_layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:id="@+id/frag_chat_barra_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/background_barra_chat"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/frag_chat_btn_adicionar"-->
+            <!--style="?android:borderlessButtonStyle"-->
+            <!--android:layout_width="54dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:alpha="0.5"-->
+            <!--android:padding="8dp"-->
+            <!--app:srcCompat="@drawable/ic_adicionar"-->
+            <!--tools:ignore="VectorDrawableCompat" />-->
+
+        <EditText
+            android:id="@+id/frag_chat_campo_mensagem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="@string/txt_frag_chat_campo"
+            android:inputType="textPersonName"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/frag_chat_btn_enviar"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_enviar"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+
+</RelativeLayout>

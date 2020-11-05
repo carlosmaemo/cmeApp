@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ddd"
+    android:padding="5dp"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/layout_desmarcado_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="#ccc"
+        android:textAllCaps="true"
+        android:text="Titulo"
+        android:textSize="20sp"
+        tools:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/layout_desmarcado_medico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/layout_desmarcado_nome"
+        android:layout_alignStart="@+id/layout_desmarcado_nome"
+        android:layout_alignLeft="@+id/layout_desmarcado_nome"
+        android:layout_alignEnd="@+id/layout_desmarcado_nome"
+        android:layout_alignRight="@+id/layout_desmarcado_nome"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center|left"
+        android:text="Descriçao"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/layout_desmarcado_inf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/layout_desmarcado_medico"
+        android:layout_alignStart="@+id/layout_desmarcado_medico"
+        android:layout_alignLeft="@+id/layout_desmarcado_medico"
+        android:layout_alignEnd="@+id/layout_desmarcado_medico"
+        android:layout_alignRight="@+id/layout_desmarcado_medico"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center|left"
+        android:text="Descriçao"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/layout_desmarcado_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/layout_desmarcado_inf"
+        android:layout_alignStart="@+id/layout_desmarcado_inf"
+        android:layout_alignLeft="@+id/layout_desmarcado_inf"
+        android:layout_alignEnd="@+id/layout_desmarcado_inf"
+        android:layout_alignRight="@+id/layout_desmarcado_inf"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center|left"
+        android:text="Descriçao"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

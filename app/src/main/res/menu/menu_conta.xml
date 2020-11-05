@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".actividades.conta.Conta">
+
+    <item
+        android:id="@+id/menu_conta_btn_img"
+        android:icon="@drawable/ic_camera"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title=""/>
+
+    <item
+        android:id="@+id/menu_conta_btn_salvar"
+        android:icon="@drawable/ic_salvar"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title=""/>
+
+</menu>

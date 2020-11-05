@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="frag_consulta_titulo">Pre-marcação</string>
+    <string name="frag_sala_titulo">Agendamento</string>
+
+    <string name="app_name">CME App</string>
+    <string name="titulo_inicial">CME App</string>
+    <string name="titulo_login">Iniciar Sessão na sua Conta</string>
+
+    <string name="txt_input_nome">Seu nome</string>
+    <string name="txt_input_apelido">Apelido</string>
+    <string name="txt_input_estado">O seu estado</string>
+    <string name="txt_input_residencia">Residência</string>
+    <string name="txt_input_provincia">Província</string>
+    <string name="txt_input_celular">Número de celular</string>
+    <string name="txt_input_senha">Senha</string>
+    <string name="txt_input_senha_conf">Confirmar senha</string>
+    <string name="txt_input_nascimento">Data de nascimento</string>
+    <string name="txt_input_bi">Nº de identidade (BI)</string>
+    <string name="txt_input_pac">PAC</string>
+    <string name="txt_input_masculino">Masculino</string>
+    <string name="txt_input_feminino">Feminino</string>
+
+    <string name="txt_btn_login">Iniciar Sessão</string>
+    <string name="txt_btn_continuar">Continuar</string>
+    <string name="txt_btn_signup">Criar Conta</string>
+    <string name="txt_login_subtitulo">SOMOS PELA SUA SAÚDE</string>
+    <string name="txt_login_continuar">Porfavor confirma a sua região e insira o seu número de celular para continuar</string>
+    <string name="txt_registo_continuar">Últimos retoques</string>
+    <string name="txt_login_semconta">Não tem uma conta?</string>
+    <string name="txt_registo_comconta">Já tem uma conta?</string>
+    <string name="txt_login_signup">Inscreva-se agora</string>
+    <string name="txt_registo_login">Iniciar sessão agora</string>
+    <string name="txt_login_forget">Esqueceu sua senha?</string>
+    <string name="txt_menu_pendente">Agendamento pendente</string>
+    <string name="txt_menu_desmarcado">Agendamento desmarcado</string>
+    <string name="txt_menu_conta">Minha conta</string>
+    <string name="txt_menu_definicoes">Definições</string>
+    <string name="txt_menu_sobre">Sobre</string>
+    <string name="txt_menu_politica">Política de qualidade</string>
+    <string name="txt_menu_termos">Termos de uso</string>
+    <string name="txt_barra_navegador_aberto">Abrir barra de navegação</string>
+    <string name="txt_barra_navegador_fechado">Fechar barra de navegação</string>
+    <string name="txt_verificacao_titulo">Código de verificação</string>
+
+    <string name="txt_pendente_vazio">Sem nenhum agendamento pendente</string>
+    <string name="txt_desmarcado_vazio">Sem nenhum agendamento desmarcado</string>
+    <string name="txt_consulta_vazio">Sem nenhuma consulta disponível</string>
+    <string name="txt_frag_notificacao_vazio">Sem nenhuma notificação</string>
+    <string name="txt_frag_chat_vazio">Sem nenhuma mensagem</string>
+    <string name="txt_frag_agendamento_vazio">Nenhum agendamento marcado</string>
+    <string name="txt_frag_chat_campo">Mensagem</string>
+
+    <string name="txt_termos_titulo">Termos de Uso</string>
+    <string name="txt_sobre_titulo">Sobre</string>
+    <string name="txt_politica_titulo">Política de Qualidade</string>
+
+    <string name="txt_input_idioma">Idioma</string>
+
+</resources>

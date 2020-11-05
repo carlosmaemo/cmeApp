@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".actividades.sistemas.Carregamento">
+
+    <TextView
+        android:id="@+id/inicio_tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/titulo_inicial"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <ProgressBar
+        android:id="@+id/inicio_barra_progresso"
+        style="?android:attr/progressBarStyle"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/carregamento_txt1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="Não foi possível estabelecer ligação..."
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/carregamento_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Certifique-se de que o seu telemóvel está ligado à Internet"
+        android:visibility="invisible"/>
+
+</LinearLayout>

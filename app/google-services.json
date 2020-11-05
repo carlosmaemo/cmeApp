@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "41719498762",
+    "firebase_url": "https://cme-app-2019bf.firebaseio.com",
+    "project_id": "cme-app-2019bf",
+    "storage_bucket": "cme-app-2019bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41719498762:android:5857d5c51391ae39",
+        "android_client_info": {
+          "package_name": "com.cmembondeiro.cme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41719498762-cih9o0n6d7lisrr2f4pk53uuudg4fdvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cmembondeiro.cme",
+            "certificate_hash": "b170af391c0a568b477b1b693e24c18b6989b8c5"
+          }
+        },
+        {
+          "client_id": "41719498762-l0cbq2e9rl1j46cbougu4bjuqtcbjg1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cmembondeiro.cme",
+            "certificate_hash": "bffb3f3d99338d046c3ce98355e7ac7e9bd04466"
+          }
+        },
+        {
+          "client_id": "41719498762-242r7pqne1g2ahreca8ghr66e01mb6uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2_efr3URrh1pCiuGXWd4O2-jA6CppbzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41719498762-242r7pqne1g2ahreca8ghr66e01mb6uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41719498762:android:f2d6bdab242637f939b7f3",
+        "android_client_info": {
+          "package_name": "com.cmembondeiro.cmeadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41719498762-3q4gmodl98f6a0hu628hq0gklqno90pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cmembondeiro.cmeadmin",
+            "certificate_hash": "bffb3f3d99338d046c3ce98355e7ac7e9bd04466"
+          }
+        },
+        {
+          "client_id": "41719498762-242r7pqne1g2ahreca8ghr66e01mb6uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2_efr3URrh1pCiuGXWd4O2-jA6CppbzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41719498762-242r7pqne1g2ahreca8ghr66e01mb6uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
