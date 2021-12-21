@@ -1,0 +1,4 @@
+#Fri Feb 07 16:14:54 CAT 2020
+base.0=/home/carlosmaemo/AndroidStudioProjects/CME/app/build/intermediates/dex/release/mergeDexRelease/out
+path.0=classes.dex
+renamed.0=classes.dex

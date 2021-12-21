@@ -1,0 +1,4 @@
+#Tue Apr 14 09:33:38 CAT 2020
+base.0=/Users/cmaemo/Desktop/Proxmeru/Projetos/Sistemas/Projectos/CME App/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
